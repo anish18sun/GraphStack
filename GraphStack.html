@@ -11,16 +11,13 @@
     <title>Graph Stack</title>
 
     <!-- Bootstrap core CSS -->
-    <!-- <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- React JS -->
-    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
-    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
-    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script> 
-    <script type="text/babel" src="{{ url_for('static', filename='js/GraphStack.js') }}"></script>
-    <!-- <script type="text/babel" src="static/js/GraphStack.js"></script> -->
-
+    <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+	<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+    <!-- <script type="text/babel" src="{{ url_for('static', filename='js/GraphStack.js') }}"></script> -->
   </head>
 
   <body>
@@ -34,7 +31,9 @@
 
   		<div id="bulkdata_form">
   		</div>
-
   	</div>
+
+  	<script type="text/babel" src="static/js/GraphStack.js"></script>
+  	
   </body>
 </html>
